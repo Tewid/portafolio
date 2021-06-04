@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+body{
+    background-color:#EAEDED;
+}
+.banner{
+    margin-top: 4rem;
+    background-image: url("assets/img/banner.jpg");
+    background-size: 100% 100%;
+    height: 570px;
+    text-align: center;
+}
+.bannerc{
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+.parrafo{
+    color: #fff;
+    text-align: center;
+
+}
+/*Segunda caja*/
+.contenedorc
+{
+    width: 100%;
+    height: 200px;
+    text-align: center;
+}
+.conntenedorsc
+{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(7, 99, 219, 0.932);
+    color: white;
+}
+/*2 - 4 banner*/
+.banner2{
+    background-image: url("assets/img/banner2.jpg");
+    background-size: 100% 100%;
+    height: 530px;
+    text-align: center;
+}
+/*2 - 4 banner*/
+.banner3{
+    background-image: url("assets/img/banner3.jpg");
+    background-size: 100% 100%;
+    height: 530px;
+    text-align: center;
+}
+/*2 - 4 banner*/
+.banner4{
+    background-image: url("assets/img/banner4.jpg");
+    background-size: 100% 100%;
+    height: 550px;
+    text-align: center;
+}
+/*2 - 4 banner*/
+.banner5{
+    background-image: url("assets/img/banner5.jpg");
+    background-size: 100% 100%;
+    height: 530px;
+    text-align: center;
+}
+/*botones de saber mas*/
+.mas
+{
+    background-color: rgba(7, 99, 219, 0.5);
+    border:none;
+    border-radius: 30px;
+    width: 200px;
+    height: 60px;
+    color: white;
+}
+.mas:hover
+{
+    transition: 0.3s;
+    background-color: rgba(7, 99, 219, 0.932);
+}
+/*Utilizaremos esto para centrar los textos*/
+.textc{
+    text-align: center;
+}
+.circulo{
+    background-color: white;
+    border-radius: 200px;
+}
+/*Utilizaremos esto para el pie de pagina*/
+footer{
+    margin-top: 2rem;
+    background-color: rgba(7, 99, 219, 0.932); 
+    color: #fff; 
+    padding-top: 30px;
+}
+.bordef{
+    border-bottom: 1px  solid #fff;
+}
+.paginas a{
+    text-decoration: none;
+    color: darkblue;
+} 
+.paginas a:hover{
+    transition: 0.5s;
+    color: white;
+} 
+.titulo{
+    color: rgba(7, 99, 219, 0.932);
+}
+.espacio{
+    margin-top: 5rem;
+}
+/*Utilizaremos esto para contenedores de galeria*/
+.contenedorh{
+    width: 100%;
+    height: 290px;
+}
+.contenedorh img{
+    object-fit: cover;
+    width: 100%;
+    height: 290px;
+}
+/*Utilizaremos para el modal de galeria*/
+.modal{
+    display: none;
+}
+.modal:target{
+    display: block;
+    position: fixed;
+    background-color: rgba(0,0,0,0.8);
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.modal h3{
+    color: rgba(7, 99, 219, 0.932);
+    font-size: 30px;
+    text-align: center;
+    margin: 15px 0;
+}
+.imagen{
+    width: 100%;
+    height: 100%;
+    background-color: #EAEDED;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imagen a{
+    color: rgba(7, 99, 219, 0.932);
+    font-size: 40px;
+    text-decoration: none;
+    margin: 0 20px;
+}
+.imagen a:nth-child(2){
+    margin: 0;
+    height: 100%;
+    flex-shrink: 2;
+}
+.imagen .img2{
+    size: 100% 100%;
+    width: 970px;
+    max-width: 100%;
+    max-height: 100%;
+    border: 7px solid;
+}
+.imagen .img3{
+    width: 800px;
+    max-width: 100%;
+    max-height: 100%;
+    border: 7px solid;
+}
+.imagen img{
+    width: 500px;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    border: 7px solid;
+}
+.cerrar{
+    display: block;
+    background-color: rgba(7, 99, 219, 0.932);
+    width: 25px;
+    height: 25px;
+    margin: 15px auto;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    border-radius: 50%;
+    line-height: 25px;
+
+}
+a figcaption {
+    background-color: rgba(7, 99, 219, 0.932);
+}
+a figcaption h1{
+    text-decoration: none;
+    text-align: center;
+}
+.color{
+    text-align: center;
+    color: #EAEDED;
+    text-decoration: none;
+}
+.color:hover{
+    transition: 0.3s;
+    color: darkblue;
+}
